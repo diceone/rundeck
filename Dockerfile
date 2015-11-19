@@ -4,7 +4,7 @@ MAINTAINER Dr. Doom <doom@dev-ops.de>
 
 RUN yum -y update
 
-RUN yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel openssh
+RUN yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel openssh supervisor
 
 RUN rpm -Uvh http://repo.rundeck.org/latest.rpm
 
